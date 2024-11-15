@@ -1,6 +1,9 @@
 #include "node.h"
 
-Node::Node(int value) { Node::value = value; }
+Node::Node(int value) { 
+  Node::value = value;
+  Node::next = nullptr;
+}
 
 int Node::getValue() { return Node::value; }
 
